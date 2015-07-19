@@ -1,2 +1,4 @@
-# react-engine-krakenjs-example
-Isomorphic application allowing you to render JSX server-side and client-side 
+react-engine-example
+===========
+
+Example of KrakenJS with React-engine and a few other nifty plugis

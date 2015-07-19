@@ -1,0 +1,31 @@
+{
+  "name": "react-engine-example",
+  "version": "0.1.0",
+  "description": "Example of KrakenJS with React-engine and a few other nifty plugis",
+  "author": "Josh Bedo",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "all": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "express": "^4.12.2",
+    "kraken-devtools": "^1.2.1",
+    "kraken-js": "^1.0.3",
+    "node-sass": "^2.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-copy-to": "0.0.10",
+    "grunt-mocha-cli": "^1.13.1",
+    "grunt-sass": "^0.18.1",
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  }
+}
